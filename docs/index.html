@@ -178,56 +178,125 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-i18n="skills.title">All 17 Skills</h2>
-                <p class="section-subtitle" data-i18n="skills.subtitle">Comprehensive marketing expertise at your
-                    command</p>
+                <h2 class="section-title" data-i18n="skills.title">All 24 Skills</h2>
+                <p class="section-subtitle" data-i18n="skills.subtitle">Click any skill to see what it can do for you
+                </p>
             </div>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h4 data-i18n="skills.content">Content & Creative</h4>
                     <div class="skill-items">
-                        <div class="skill-item"><span class="skill-icon">✍️</span> content-marketing</div>
-                        <div class="skill-item"><span class="skill-icon">🎨</span> branding-expert</div>
-                        <div class="skill-item"><span class="skill-icon">🎬</span> video-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('content-marketing')"
+                            data-skill="content-marketing"><span class="skill-icon">✍️</span> content-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('branding-expert')"
+                            data-skill="branding-expert"><span class="skill-icon">🎨</span> branding-expert</div>
+                        <div class="skill-item" onclick="showSkillModal('video-marketing')"
+                            data-skill="video-marketing"><span class="skill-icon">🎬</span> video-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('content-repurposing')"
+                            data-skill="content-repurposing"><span class="skill-icon">♻️</span> content-repurposing
+                        </div>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h4 data-i18n="skills.growth">Growth & Acquisition</h4>
                     <div class="skill-items">
-                        <div class="skill-item"><span class="skill-icon">🚀</span> growth-hacking</div>
-                        <div class="skill-item"><span class="skill-icon">💰</span> ppc-advertising</div>
-                        <div class="skill-item"><span class="skill-icon">👥</span> influencer-marketing</div>
-                        <div class="skill-item"><span class="skill-icon">🤝</span> affiliate-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('growth-hacking')" data-skill="growth-hacking">
+                            <span class="skill-icon">🚀</span> growth-hacking</div>
+                        <div class="skill-item" onclick="showSkillModal('ppc-advertising')"
+                            data-skill="ppc-advertising"><span class="skill-icon">💰</span> ppc-advertising</div>
+                        <div class="skill-item" onclick="showSkillModal('influencer-marketing')"
+                            data-skill="influencer-marketing"><span class="skill-icon">👥</span> influencer-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('affiliate-marketing')"
+                            data-skill="affiliate-marketing"><span class="skill-icon">🤝</span> affiliate-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('lead-gen-scraper')"
+                            data-skill="lead-gen-scraper"><span class="skill-icon">🎯</span> lead-gen-scraper</div>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h4 data-i18n="skills.channels">Channels</h4>
                     <div class="skill-items">
-                        <div class="skill-item"><span class="skill-icon">📱</span> social-media-expert</div>
-                        <div class="skill-item"><span class="skill-icon">📧</span> email-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('social-media-expert')"
+                            data-skill="social-media-expert"><span class="skill-icon">📱</span> social-media-expert
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('email-marketing')"
+                            data-skill="email-marketing"><span class="skill-icon">📧</span> email-marketing</div>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h4 data-i18n="skills.optimization">Optimization & Analytics</h4>
                     <div class="skill-items">
-                        <div class="skill-item"><span class="skill-icon">🔍</span> seo-fundamentals</div>
-                        <div class="skill-item"><span class="skill-icon">📊</span> analytics-marketing</div>
-                        <div class="skill-item"><span class="skill-icon">🎯</span> conversion-optimization</div>
-                        <div class="skill-item"><span class="skill-icon">⚙️</span> marketing-automation</div>
+                        <div class="skill-item" onclick="showSkillModal('seo-fundamentals')"
+                            data-skill="seo-fundamentals"><span class="skill-icon">🔍</span> seo-fundamentals</div>
+                        <div class="skill-item" onclick="showSkillModal('keyword-research-deep')"
+                            data-skill="keyword-research-deep"><span class="skill-icon">🔑</span> keyword-research-deep
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('analytics-marketing')"
+                            data-skill="analytics-marketing"><span class="skill-icon">📊</span> analytics-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('conversion-optimization')"
+                            data-skill="conversion-optimization"><span class="skill-icon">🎯</span>
+                            conversion-optimization</div>
+                        <div class="skill-item" onclick="showSkillModal('marketing-automation')"
+                            data-skill="marketing-automation"><span class="skill-icon">⚙️</span> marketing-automation
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('ab-test-dashboard')"
+                            data-skill="ab-test-dashboard"><span class="skill-icon">🧪</span> ab-test-dashboard</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.ads">Ads & Creative</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('ad-creative-variations')"
+                            data-skill="ad-creative-variations"><span class="skill-icon">🎨</span>
+                            ad-creative-variations</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.competitor">Competitor Intelligence</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('competitor-teardown')"
+                            data-skill="competitor-teardown"><span class="skill-icon">🔎</span> competitor-teardown
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('competitor-monitor')"
+                            data-skill="competitor-monitor"><span class="skill-icon">👁️</span> competitor-monitor</div>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h4 data-i18n="skills.design">Design & Development</h4>
                     <div class="skill-items">
-                        <div class="skill-item"><span class="skill-icon">✨</span> ui-ux-pro-max</div>
-                        <div class="skill-item"><span class="skill-icon">🖥️</span> frontend-design</div>
-                        <div class="skill-item"><span class="skill-icon">🎨</span> tailwind-patterns</div>
-                        <div class="skill-item"><span class="skill-icon">📝</span> documentation-templates</div>
+                        <div class="skill-item" onclick="showSkillModal('ui-ux-pro-max')" data-skill="ui-ux-pro-max">
+                            <span class="skill-icon">✨</span> ui-ux-pro-max</div>
+                        <div class="skill-item" onclick="showSkillModal('frontend-design')"
+                            data-skill="frontend-design"><span class="skill-icon">🖥️</span> frontend-design</div>
+                        <div class="skill-item" onclick="showSkillModal('tailwind-patterns')"
+                            data-skill="tailwind-patterns"><span class="skill-icon">🎨</span> tailwind-patterns</div>
+                        <div class="skill-item" onclick="showSkillModal('documentation-templates')"
+                            data-skill="documentation-templates"><span class="skill-icon">📝</span>
+                            documentation-templates</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Skill Modal -->
+    <div class="modal-overlay" id="skillModal" onclick="closeSkillModal(event)">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeSkillModal()">&times;</button>
+            <div class="modal-icon" id="modalIcon">🎯</div>
+            <h3 class="modal-title" id="modalTitle">Skill Name</h3>
+            <p class="modal-description" id="modalDescription">Description here...</p>
+            <div class="modal-capabilities">
+                <h4 data-i18n="modal.capabilities">What it can do:</h4>
+                <ul id="modalCapabilities"></ul>
+            </div>
+            <div class="modal-footer">
+                <span class="modal-tag" data-i18n="modal.included">✨ Included in kit</span>
+            </div>
+        </div>
+    </div>
 
     <!-- Install Section -->
     <section class="install" id="install">

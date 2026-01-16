@@ -1,6 +1,6 @@
-# Antigravity Marketing Kit
+# 🚀 Antigravity Marketing Kit
 
-🚀 Marketing-focused AI agent skills kit for Gemini CLI.
+> **24 marketing skills, 4 agents, and 4 workflows** for AI-powered marketing with Gemini CLI.
 
 ## 📋 Table of Contents
 

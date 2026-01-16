@@ -34,12 +34,14 @@ const translations = {
         "features.analytics.desc": "Analytics, attribution, and optimization skills to measure and improve results.",
 
         // Skills
-        "skills.title": "All 17 Skills",
-        "skills.subtitle": "Comprehensive marketing expertise at your command",
+        "skills.title": "All 24 Skills",
+        "skills.subtitle": "Click any skill to see what it can do for you",
         "skills.content": "Content & Creative",
         "skills.growth": "Growth & Acquisition",
         "skills.channels": "Channels",
         "skills.optimization": "Optimization & Analytics",
+        "skills.ads": "Ads & Creative",
+        "skills.competitor": "Competitor Intelligence",
         "skills.design": "Design & Development",
 
         // Install
@@ -103,12 +105,14 @@ const translations = {
         "features.analytics.desc": "Analytics, attribution, và optimization skills để đo lường và cải thiện kết quả.",
 
         // Skills
-        "skills.title": "Tất cả 17 Skills",
-        "skills.subtitle": "Chuyên môn marketing toàn diện theo lệnh của bạn",
+        "skills.title": "Tất cả 24 Skills",
+        "skills.subtitle": "Click vào skill để xem chi tiết",
         "skills.content": "Content & Sáng tạo",
         "skills.growth": "Growth & Acquisition",
         "skills.channels": "Kênh",
         "skills.optimization": "Tối ưu & Analytics",
+        "skills.ads": "Ads & Creative",
+        "skills.competitor": "Competitor Intelligence",
         "skills.design": "Design & Development",
 
         // Install
