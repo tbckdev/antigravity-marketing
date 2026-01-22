@@ -32,7 +32,7 @@ This project is built upon and includes skills from:
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 
-## 🧠 Skills (17)
+## 🧠 Skills (24)
 
 ### Content & Creative
 | Skill | Description |
@@ -40,6 +40,7 @@ This project is built upon and includes skills from:
 | `content-marketing` | Content strategy, copywriting, storytelling |
 | `branding-expert` | Brand identity, voice & tone, style guides |
 | `video-marketing` | Video strategy, YouTube SEO, short-form content |
+| `content-repurposing` | Transform content into multiple formats |
 
 ### Growth & Acquisition
 | Skill | Description |
@@ -48,6 +49,7 @@ This project is built upon and includes skills from:
 | `ppc-advertising` | Google Ads, Meta Ads, campaign optimization |
 | `influencer-marketing` | Influencer outreach, KOL partnerships |
 | `affiliate-marketing` | Affiliate programs, partner networks |
+| `lead-gen-scraper` | Lead generation, prospect research |
 
 ### Channels
 | Skill | Description |
@@ -59,9 +61,22 @@ This project is built upon and includes skills from:
 | Skill | Description |
 |-------|-------------|
 | `seo-fundamentals` | SEO best practices, E-E-A-T, Core Web Vitals |
+| `keyword-research-deep` | Advanced keyword research, clustering, intent |
 | `analytics-marketing` | KPIs, attribution, GA4, dashboards |
 | `conversion-optimization` | CRO, A/B testing, landing pages |
 | `marketing-automation` | Lead nurturing, workflows, segmentation |
+| `ab-test-dashboard` | A/B test analysis, statistical significance |
+
+### Ads & Creative
+| Skill | Description |
+|-------|-------------|
+| `ad-creative-variations` | Mass ad copy variations for Meta/Google/TikTok |
+
+### Competitor Intelligence
+| Skill | Description |
+|-------|-------------|
+| `competitor-teardown` | Analyze competitor websites, ads, strategies |
+| `competitor-monitor` | Monitor competitor changes and alerts |
 
 ### Design & Development
 | Skill | Description |
