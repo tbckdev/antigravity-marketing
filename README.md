@@ -38,7 +38,7 @@ This project is built upon and includes skills from:
 
 | YouTube (16:9) | TikTok / Reels (9:16) |
 |:---:|:---:|
-| <video src="docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
+| <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
 
 ## 🧠 Skills (25)
 
