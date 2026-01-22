@@ -32,6 +32,8 @@ const translations = {
         "features.design.desc": "UI/UX Pro Max and frontend design skills for stunning marketing pages.",
         "features.analytics.title": "Data-Driven",
         "features.analytics.desc": "Analytics, attribution, and optimization skills to measure and improve results.",
+        "showcase.title": "🎥 Video Automation Showcase",
+        "showcase.subtitle": "programmatic video production power inherited from Remotion Skills.",
 
         // Skills
         "skills.title": "All 25 Skills",
@@ -100,12 +102,14 @@ const translations = {
         "features.easy.title": "Cài đặt một lệnh",
         "features.easy.desc": "Bắt đầu trong vài giây với npx. Không cần setup phức tạp.",
         "features.design.title": "Design Intelligence",
-        "features.design.desc": "UI/UX Pro Max và frontend design skills cho trang marketing đẹp mắt.",
-        "features.analytics.title": "Data-Driven",
-        "features.analytics.desc": "Analytics, attribution, và optimization skills để đo lường và cải thiện kết quả.",
+        "features.design.desc": "Kỹ năng UI/UX Pro Max và thiết kế frontend cho các trang marketing tuyệt đẹp.",
+        "features.analytics.title": "Dựa trên dữ liệu",
+        "features.analytics.desc": "Kỹ năng phân tích, phân bổ và tối ưu hóa để đo lường và cải thiện kết quả.",
+        "showcase.title": "🎥 Video Automation Showcase",
+        "showcase.subtitle": "Sức mạnh sản xuất video tự động kế thừa từ Remotion Skills.",
 
         // Skills
-        "skills.title": "Tất cả 25 Skills",
+        "skills.title": "Tất cả 25 Kỹ năng",
         "skills.subtitle": "Click vào skill để xem chi tiết",
         "skills.content": "Content & Sáng tạo",
         "skills.growth": "Growth & Acquisition",
