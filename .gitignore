@@ -16,3 +16,8 @@ Thumbs.db
 
 # Temp files
 .temp_ag_marketing_kit/
+
+# Remotion Output
+out/
+*.mp4
+*.webm

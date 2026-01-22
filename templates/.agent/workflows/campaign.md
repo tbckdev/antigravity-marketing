@@ -135,12 +135,37 @@ This will create a public URL like: `https://<campaign-name>.nport.link`
 
 **Note**: The tunnel remains active for ~4 hours. Perfect for sharing presentations in meetings!
 
+## Step 7: Automated Video Production (Optional)
+
+Ask the user: **"Bạn có muốn tạo video ad tự động cho campaign này không? (TikTok/Reels/Meta)"**
+## Bước 7: Sản xuất Video Tự động (Tùy chọn) ✨
+Dành cho người dùng không rành kỹ thuật, Agent sẽ lo toàn bộ khâu code.
+
+### 7.1 Cách yêu cầu Agent
+Mầy chỉ cần đưa yêu cầu bằng ngôn ngữ tự nhiên. Ví dụ:
+- *"Clone cái landing page này thành video Facebook: [URL]"*
+- *"Tạo một video TikTok giới thiệu tính năng X, phong cách neon, có hoa rơi."*
+- *"Làm một bản 16:9 và một bản 9:16 cho chiến dịch Tết."*
+
+### 7.2 Xem Preview (Cực dễ)
+Sau khi Agent code xong, mầy chỉ cần mở link Localhost mà Agent cung cấp (thường là `http://localhost:3000`).
+- Nhấn **Space** để xem.
+- Kéo thanh Timeline để soi từng frame.
+
+### 7.3 Xuất Video (Render)
+Khi đã ưng ý, mầy chỉ cần bảo Agent: *"Xuất mp4 cho tao"*. 
+- Agent sẽ tự động kiểm tra FFmpeg.
+- Nếu thiếu, Agent sẽ hướng dẫn mầy chạy: `brew install ffmpeg`.
+- Sau đó Agent sẽ tự chạy lệnh render và mở file video lên cho mầy.
+
+**Composition ID mầy cần biết:**
+- Video Facebook (16:9): `JupViecTetAd`
+- Video TikTok/Reels (9:16): `JupViecTetAd916` hoặc `JupViecTikTokAd`
+
 ## Skills Used
 
-- marketing-strategist
-- content-marketing
-- ppc-advertising
 - social-media-expert
 - email-marketing
 - analytics-marketing
 - ui-ux-pro-max
+- video-automation

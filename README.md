@@ -32,7 +32,7 @@ This project is built upon and includes skills from:
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 
-## 🧠 Skills (24)
+## 🧠 Skills (25)
 
 ### Content & Creative
 | Skill | Description |
@@ -40,6 +40,7 @@ This project is built upon and includes skills from:
 | `content-marketing` | Content strategy, copywriting, storytelling |
 | `branding-expert` | Brand identity, voice & tone, style guides |
 | `video-marketing` | Video strategy, YouTube SEO, short-form content |
+| `video-automation` | **Automated marketing videos via Remotion** |
 | `content-repurposing` | Transform content into multiple formats |
 
 ### Growth & Acquisition

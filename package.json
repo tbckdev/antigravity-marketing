@@ -35,11 +35,16 @@
   "author": "NguyenPHP",
   "license": "MIT",
   "dependencies": {
+    "@remotion/cli": "^4.0.400",
+    "@remotion/renderer": "^4.0.400",
     "chalk": "^5.6.2",
     "commander": "^12.1.0",
     "fs-extra": "^11.3.3",
     "giget": "^2.0.0",
-    "ora": "^8.2.0"
+    "ora": "^8.2.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.400"
   },
   "publishConfig": {
     "access": "public"
