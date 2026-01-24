@@ -204,6 +204,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 2. Add description frontmatter and steps
 3. Submit PR
 
+## 🙏 Credits
+
+This project is built upon and includes skills from:
+
+- 🚀 **[Antigravity Kit](https://github.com/vudovn/antigravity-kit)** - Base CLI structure and core skills
+- 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
+- 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
+- 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
