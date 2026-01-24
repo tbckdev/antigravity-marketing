@@ -1,41 +1,36 @@
-# 🚀 Antigravity Marketing Kit
+<div align="center">
+  <img src="docs/assets/logo.png" alt="Antigravity Marketing Kit Logo" width="400">
 
-> **26 marketing skills, 4 agents, and 4 workflows** for AI-powered marketing with Gemini CLI.
+  # 🚀 Antigravity Marketing Kit
 
-## 📋 Table of Contents
+  > **26 specialized marketing skills, 4 expert agents, and 4 streamlined workflows.**
+  > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
-- [Introduction](#-introduction)
-- [Skills](#-skills)
-- [Agents](#-agents)
-- [Workflows](#-workflows)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
+  [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![GitHub stars](https://img.shields.io/github/stars/nguyenphp/antigravity-marketing.svg)](https://github.com/nguyenphp/antigravity-marketing/stargazers)
 
-## 🎯 Introduction
+</div>
 
-Antigravity Marketing Kit is a comprehensive collection of marketing-focused skills, agents, and workflows designed to supercharge your AI-assisted marketing efforts.
+---
 
-> **Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit)** - the original CLI toolkit for AI agent skills.
+## 🌟 Transform Your Marketing Workflow
 
-This toolkit includes:
-- **Skills** - Marketing domain expertise (Content, SEO, Social Media, Growth...)
-- **Agents** - Specialized AI agents for marketing tasks
-- **Workflows** - Step-by-step procedures for common marketing tasks
+Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy layer** designed to eliminate manual marketing drudgery. Whether you're a growth hacker, a content creator, or a data-driven strategist, this kit provides the precise intelligence you need to scale.
 
-## 🙏 Credits
+> **Built on the shoulders of giants.** Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit), the definitive framework for AI agent skills.
 
-This project is built upon and includes skills from:
+### Why Antigravity?
+- **🧠 Domain Expertise**: 26 skills covering the entire marketing spectrum.
+- **🤖 Specialized Agents**: Content, Growth, Strategy, and Analytics experts at your service.
+- **🔄 Proven Workflows**: Turn complex tasks into simple commands.
+- **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
 
-- 🚀 **[Antigravity Kit](https://github.com/vudovn/antigravity-kit)** - Base CLI structure and core skills
-- 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
-- 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
-- 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
+---
 
-## 🎥 Video Showcase (Automated via [Remotion](https://www.remotion.dev/))
+## 🎥 Video Showcase (Automated Production)
 
-✨ **Video-Automation Skill**: This feature inherits its power directly from our Remotion-based skills, allowing for the programmatic creation of high-fidelity marketing videos.
+✨ **Power of Remotion**: This toolkit inherits cutting-edge video-automation skills, enabling programmatic creation of viral marketing content.
 
 | YouTube (16:9) | TikTok / Reels (9:16) |
 |:---:|:---:|
