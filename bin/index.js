@@ -308,7 +308,7 @@ const program = new Command();
 program
     .name('ag-marketing-kit')
     .description('CLI tool to install and manage Antigravity Marketing Kit')
-    .version('1.0.14', '-v, --version', 'Display version number');
+    .version('1.0.15', '-v, --version', 'Display version number');
 
 // Command: init
 program

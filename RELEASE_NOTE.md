@@ -1,3 +1,13 @@
+# Release v1.0.15 - The "Automated Release" Update 🤖
+
+This update introduces automated GitHub Release creation. Now, whenever a new version is tagged, the kit automatically generates a GitHub Release with the corresponding notes from `RELEASE_NOTE.md`.
+
+## ✨ Improvements
+- **Automated GitHub Releases**: Integrated `softprops/action-gh-release` in the CI/CD pipeline.
+- **Note Extraction**: Built a custom script to ensure only the latest release notes are synced to GitHub.
+
+---
+
 # Release v1.0.14 - The "Unified Precision" Update 🎯
 
 This update focuses on synchronizing all skill, agent, and workflow counts across the CLI, Documentation, and Marketing Website to ensure a consistent and professional experience.
