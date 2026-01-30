@@ -6,9 +6,12 @@
   > **41+ specialized marketing skills, 4 expert agents, and 4 streamlined workflows.**
   > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
-  [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![GitHub stars](https://img.shields.io/github/stars/nguyenphp/antigravity-marketing.svg)](https://github.com/nguyenphp/antigravity-marketing/stargazers)
+  [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg?style=flat-square&color=cb3837)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
+  [![npm downloads](https://img.shields.io/npm/dt/@nguyenphp/antigravity-marketing.svg?style=flat-square&color=333333)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
+  [![npm monthly downloads](https://img.shields.io/npm/dm/@nguyenphp/antigravity-marketing.svg?style=flat-square&color=333333)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
+  [![GitHub downloads](https://img.shields.io/github/downloads/nguyenphp/antigravity-marketing/total.svg?style=flat-square&color=333333)](https://github.com/nguyenphp/antigravity-marketing/releases)
+  [![GitHub stars](https://img.shields.io/github/stars/nguyenphp/antigravity-marketing.svg?style=flat-square&color=blue)](https://github.com/nguyenphp/antigravity-marketing/stargazers)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
   ### 🌐 Official Homepage: [ag-mkt.site](https://ag-mkt.site)
 

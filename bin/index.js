@@ -122,6 +122,23 @@ const updateGitignore = (targetDir) => {
     return false;
 };
 
+/**
+ * Fetch NPM download count
+ * @returns {Promise<number|null>}
+ */
+const getNpmDownloads = async () => {
+    try {
+        const response = await fetch('https://api.npmjs.org/downloads/point/last-month/@nguyenphp/antigravity-marketing');
+        if (response.ok) {
+            const data = await response.json();
+            return data.downloads;
+        }
+    } catch (error) {
+        // Silently fail, it's just an extra info
+    }
+    return null;
+};
+
 // ============================================================================
 // COMMANDS
 // ============================================================================
@@ -255,14 +272,19 @@ const statusCommand = (options) => {
         const agentCount = fs.existsSync(agentsDir) ? fs.readdirSync(agentsDir).length : 0;
         const workflowCount = fs.existsSync(workflowsDir) ? fs.readdirSync(workflowsDir).length : 0;
 
-        console.log(chalk.green('✅ Installed'));
-        console.log(chalk.gray('────────────────────────────────────────'));
-        console.log(`📁 Path:      ${chalk.cyan(agentDir)}`);
-        console.log(`📅 Modified:  ${chalk.gray(stats.mtime.toLocaleString('en-US'))}`);
-        console.log(`🧠 Skills:    ${chalk.yellow(skillCount)}`);
-        console.log(`🤖 Agents:    ${chalk.yellow(agentCount)}`);
-        console.log(`🔄 Workflows: ${chalk.yellow(workflowCount)}`);
-        console.log(chalk.gray('────────────────────────────────────────\n'));
+        getNpmDownloads().then(downloads => {
+            console.log(chalk.green('✅ Installed'));
+            console.log(chalk.gray('────────────────────────────────────────'));
+            console.log(`📁 Path:      ${chalk.cyan(agentDir)}`);
+            console.log(`📅 Modified:  ${chalk.gray(stats.mtime.toLocaleString('en-US'))}`);
+            console.log(`🧠 Skills:    ${chalk.yellow(skillCount)}`);
+            console.log(`🤖 Agents:    ${chalk.yellow(agentCount)}`);
+            console.log(`🔄 Workflows: ${chalk.yellow(workflowCount)}`);
+            if (downloads !== null) {
+                console.log(`📥 Downloads: ${chalk.yellow(downloads.toLocaleString())} (last 30 days)`);
+            }
+            console.log(chalk.gray('────────────────────────────────────────\n'));
+        });
     } else {
         console.log(chalk.red('❌ Not installed'));
         console.log(chalk.yellow(`💡 Run ${chalk.cyan('ag-marketing-kit init')} to install.\n`));
